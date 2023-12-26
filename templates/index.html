@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{%static "css/stylesheet.css"%}">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i: 1;" class="active">Home</a>
+            <a href="#about" style="--i: 2;">About</a>
+            <a href="#Skills" style="--i: 3;">Skills</a>
+            <a href="#services" style="--i: 4;">Projects</a>
+            <a href="#contact" style="--i: 5;">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Yash Bansal </h1>
+            <h3>And I'm a <span class="text"> </span></h3>
+            <p>
+                🌟 "I'm a seasoned web designer with over 1 year of extensive experience, dedicated to crafting captivating website designs and ensuring seamless frontend experiences.
+                 My skills also extend to leveraging the power of AWS services to elevate your digital presence." 💻🎨🚀
+
+            </p>
+            <br>
+            <br>
+            <a href="https://www.linkedin.com/in/yash-bansal-521a99234/" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="{% static 'images/photo121.jpg'%}" style="width:50%" height="150px" margin-left:"20px";>
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>
+
+Welcome to my portfolio! I am Yash Bansal, an aspiring web developer with a profound interest in leveraging cutting-edge technologies to create innovative digital solutions. Currently pursuing a Bachelor's degree in Computer Science and Engineering, my journey has been shaped by a fervent passion for programming and a relentless drive to explore the vast realms of technology.
+
+My expertise lies in crafting responsive and user-centric web applications that combine seamless functionality with captivating designs. Proficient in a multitude of programming languages such as HTML, CSS, JavaScript, and more, I continuously strive to refine my skills to meet the evolving demands of the tech landscape.
+
+Moreover, my certification as an AWS Cloud Practitioner has equipped me with a solid foundation in cloud computing principles. I possess a deep understanding of AWS services, enabling me to design scalable and resilient architectures for web applications while ensuring optimal performance and security.
+
+</p>
+            <a href="https://www.linkedin.com/in/saurabhprakash2020/" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    <section>
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="sub-title">My <span>Projects</span></h2>
+            <div class="services-list">
+                <div>
+                    <i class='bx bxl-youtube' style='color:#00eeff'  ></i>
+                    <h2>Ecommerce Website </h2>
+                    <p> 📺Crafting an eCommerce website using Django allows you to combine the power of Python, the versatility of Django.Key Features:User-Friendly Interface,Product Catalog,Shopping Cart,User Authentication,Order Management,Search Functionality,confirmation email.🚀🎬</p>
+                    <a href="https://jai98133.pythonanywhere.com/" class="read">website link</a>
+                    <a href="https://github.com/yashbansal8814946779/ecommerce-aios" class="read">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-movie-play' style='color:#00eeff'  ></i>
+                    <h2>Employee Manager</h2>
+                    <p>🎥 "The project's primary goal is to provide a user-friendly and efficient platform for HR departments and managers to manage employee data, including personal information, work history, and performance evaluations. 🍿</p>
+                    <a href="https://employeedjango.pythonanywhere.com/" class="read">website link</a>
+                    <a href="https://github.com/yashbansal8814946779/emp-manager" class="read">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-dumbbell' style='color:#00eeff' ></i>
+                    <h2>Blog-Application</h2>
+                    <p>The primary purpose of a blog application is to provide a platform for individuals, organizations, or businesses to publish and share informational, educational, entertaining, or opinion-based content in a structured and easily accessible format. </p>
+                    <a href="https://github.com/yashbansal8814946779/blog" class="read">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+<section>
+    <div class="skills-container">
+    <div class="container1" id="Skills">
+        <div class="Technical-bars">
+            <div class="bar">
+                <div class="info"><i class='bx bxl-html5' style='color:#c95d2e' ></i>
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info"><i class='bx bxl-css3' style='color:#147bbc' ></i>
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info"><i class='bx bxl-javascript' style='color:#b0bc1e' ></i>
+                    <span>javaScript</span>
+                </div>
+                <div class="progress-line js">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info"><i class='bx bxl-java' style='color:#0075ff'  ></i>
+                    <span>Python</span>
+                </div>
+                <div class="progress-line java">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info"><i class='bx bxl-react' style='color:#69bcbc' ></i>
+                    <span>Django</span>
+                </div>
+                <div class="progress-line react">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info"><i class='bx bxl-aws' style='color:#0075ff' ></i>
+                    <span>AWS</span>
+                </div>
+                <div class="progress-line aws">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="contact-text">
+       <h2>Contact <span>Me</span></h2>
+       <br>
+       <h4>Let's Work Together</h4>
+       <p>"Hello there! I'm Yash Bansal, a seasoned web development, ready to be your go-to partner for all your project needs. 🚀<br>
+           Don't let the opportunity slip through your fingers! We're all about making your work easier and more efficient. So, why wait any longer? Take a moment to complete the form, and let's embark on this exciting journey together. Your success is just a click away!</p>
+       <div class="contact-list">
+        <li><i class='bx bxs-send'></i>yashbansal1104@gmail.com</li>
+        <li><i class='bx bxs-phone'></i>8814946779</li>
+    </div>
+    <div class="contact-icons">
+
+      <a href="https://www.linkedin.com/in/yash-bansal-521a99234/"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/yashbansal8814946779"><i class='bx bxl-github'></i></a>
+    </div>
+        <div class="container2">
+                <div class="contact-form">
+
+       <form action="https://formsubmit.co/saurabh.prakash1890@gmail.com" method="POST">
+        <input type="" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="" placeholder="Enter Your Subject">
+        <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+        <br>
+        <input type="submit" id="submit" value="submit" class="send">
+       </form>
+
+    </div>
+    </div>
+    </section>
+    <div class="last-text">
+        <p>Developed by Yash Bansal © 2023 </p>
+         <a href="#" class="top"><i class='bx bx-up-arrow-alt' undefined ></i></a>
+         </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
